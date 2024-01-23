@@ -195,7 +195,7 @@ function searchLocation(userLocation,dataArray){
               <div >
                 <p className='text-green-500'>Thanks for helping other!</p>
                 <img
-        src='https://images.emojiterra.com/google/noto-emoji/unicode-15/animated/1f44f.gif' 
+        src='cf.gif' 
         alt="Moving GIF"
         className='w-20 h-30 mx-auto'
       

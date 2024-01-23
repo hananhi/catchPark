@@ -8,7 +8,7 @@ export default function Header() {
     
     <div>
     <img
-            src='https://assets.materialup.com/uploads/5cbe5836-469c-49f0-90df-09faf39e853b/preview.gif' 
+            src='preview.gif' 
             alt="Moving GIF"
             className='w-20 h-15 '
           

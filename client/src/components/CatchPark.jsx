@@ -152,13 +152,13 @@ async function getClosePark(userLocation,dataArray){
 <div className='flex flex-col space-y-8 mt-12 '>
         {updatedLocation.map((lo, index) => (
   <div key={index}className='flex flex-row justify-evenly bg-gray-100 p-4 rounded-md' >
-    <div > <img src='https://static.wixstatic.com/media/8d272c_5422731719f24e8290ee3b352f0133c4~mv2.png/v1/fill/w_410,h_551,al_c,usm_0.66_1.00_0.01/CarParking_Icon.png' 
+    <div > <img src='pc.png' 
     alt="Moving GIF"
     className='w-15 h-10 mx-auto rounded-full'/></div>
     <div className='text-[#007FFF] font-bold mt-4'>{lo.location.address}</div>
     <div> <img
 
-    src='https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Clock.png' 
+    src='clock.png' 
     alt="Moving GIF"
     className='w-15 h-10 mx-auto rounded-full'/>
     
@@ -171,7 +171,7 @@ async function getClosePark(userLocation,dataArray){
         onClick={(e) => handleWazeLinkClick(e, lo)}
       >
         <img 
-        src='https://www.underconsideration.com/brandnew/archives/waze_2020_logo_icon.png' 
+        src='waze.png' 
         alt="Moving GIF"
         className='w-15 h-10 mx-auto rounded-full mt-3'/>
       </a>
@@ -179,7 +179,7 @@ async function getClosePark(userLocation,dataArray){
 {!deleted?
 <button onClick={(e)=>handleDeleteLocaton(lo)}>
     <img
-     src='https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/tick-1024.png' 
+     src='correct.png' 
      alt="Moving GIF"
      className='w-15 h-10 mx-auto '/>
 
